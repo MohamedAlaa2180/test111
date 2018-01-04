@@ -38,7 +38,7 @@ public class LoginSeven extends HttpServlet {
 	        rd.forward(request, response);  
 	    }  
 	    else{  
-	        out.print("Sorry UserName or Password Error!");  
+	        out.print("Sorry UserName or Password Errorr!");  
 	        RequestDispatcher rd=request.getRequestDispatcher("/login7.html");  
 	        rd.include(request, response);  
 	                      
